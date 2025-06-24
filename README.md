@@ -2,6 +2,10 @@
 
 An interactive web-based tool that helps users discover recommended RDM features based on their device stack. Users can select from various device types and receive personalized recommendations for Remote Device Management features.
 
+## 🌐 Live Demo
+
+**View the live application:** [https://sodapork.github.io/Remote-Device-Management-Feature-Tool](https://sodapork.github.io/Remote-Device-Management-Feature-Tool)
+
 ## Features
 
 - **Device Selection**: Interactive checklist with 9 common device types
@@ -45,8 +49,8 @@ An interactive web-based tool that helps users discover recommended RDM features
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd rdm-feature-tool
+git clone https://github.com/sodapork/Remote-Device-Management-Feature-Tool.git
+cd Remote-Device-Management-Feature-Tool
 ```
 
 2. Install dependencies:
@@ -69,6 +73,20 @@ npm run build
 
 The built files will be in the `dist` directory.
 
+### Deploying to GitHub Pages
+
+1. Build the project:
+```bash
+npm run build
+```
+
+2. Deploy to GitHub Pages:
+```bash
+npm run deploy
+```
+
+This will automatically deploy the app to `https://sodapork.github.io/Remote-Device-Management-Feature-Tool`
+
 ## Usage
 
 1. **Select Devices**: Check the boxes for the types of devices you manage
@@ -82,6 +100,7 @@ The built files will be in the `dist` directory.
 - **Build Tool**: Vite
 - **Styling**: Tailwind CSS
 - **Icons**: Lucide React
+- **Deployment**: GitHub Pages
 
 ## Project Structure
 
